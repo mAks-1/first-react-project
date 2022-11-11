@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.book-contact-section{
+    background: #FAF8F0;
+    text-align: center;
+    color: #52503B;
+    padding: 100px 0;
+}
+
+.book-contact-section h1{
+    font-weight: 400;
+    font-size: 32px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.book-contact-section p{
+    font-weight: 400;
+    font-size: 16px;
+    width: 40%;
+    margin: 14px auto 20px auto;
+}
+
+.book-contact-section div .contact{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 26px;
+    border-radius: 8px;
+    border: 2px solid #52503B;
+    transition: .4s;
+    background: transparent;
+    color: #52503B;
+}
+
+.book-contact-section div button{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 18px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: .4s;
+    background: #52503B;
+    color: white;
+    margin-right: 20px;
+}
+
+.book-contact-section div button:hover{
+    background-color: transparent;
+    color: #52503B;
+    border: 2px solid #52503B;
+}
+
+.book-contact-section div .contact:hover{
+    background-color: #52503B;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+@media (max-width: 900px) {
+    .book-contact-section h1{
+        font-size: 28px;
+        width: 60%;
+    }
+
+    .book-contact-section p{
+        width: 55%;
+    }
+}
+
+@media (max-width: 600px) {
+    .book-contact-section h1{
+        font-size: 26px;
+        width: 70%;
+    }
+
+    .book-contact-section p{
+        width: 65%;
+    }
+}

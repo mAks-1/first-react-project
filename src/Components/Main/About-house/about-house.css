@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.house-info{
+    padding: 100px 20% 90px 20%;
+    background: #FAF8F0;
+}
+
+.orange-line{
+    width: 42px;
+    height: 8px;
+    margin: 0 auto 34px auto;
+    background: #E08631;
+}
+
+.house-info .about-house-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.house-info .about-house-text p{
+    width: 44%;
+}
+
+.house-info button{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 18px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: .4s;
+    background: #52503B;
+    color: white;
+    display: block;
+    margin: 40px auto 0 auto;
+}
+
+.house-info button:hover{
+    background-color: transparent;
+    color: #52503B;
+    border: 2px solid #52503B;
+}
+
+.big-logo-text{
+    padding: 100px 7% 140px 7%;
+}
+
+.big-logo-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 86px;
+    text-align: center;
+    color: #52503B;
+}
+
+.about-house-wrapper img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media (max-width: 1400px) {
+    .big-logo-text h1{
+        font-size: 66px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .house-info{
+        padding: 100px 10% 90px 10%;
+    }
+
+    .big-logo-text h1{
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 500px) {
+    .house-info .about-house-text{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .house-info .about-house-text p{
+        width: 84%;
+        margin: 0 auto 25px auto;
+    }
+
+    .big-logo-text h1{
+        font-size: 34px;
+    }
+}

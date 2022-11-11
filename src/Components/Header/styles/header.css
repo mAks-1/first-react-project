@@ -1,0 +1,167 @@
+.navigation{
+    background-color: #52503B;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 170px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navigation .burger-bar{
+    display: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.navigation .nav-img{
+    width: 125px;
+    height: 45px;
+}
+
+header ul{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+header ul li{
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.burger-block{
+    background: rgba(82, 80, 59, .8);
+    width: 45%;
+    padding: 20px 30px;
+    height: 50%;
+    position: absolute;
+    top: 85px;
+    transform: translate(-100%, 0);
+    transition: .4s;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.show-hide{
+    transform: translate(0, 0);
+}
+
+.burger-block ul{
+    display: block;
+    width: 100%;
+}
+
+.burger-block ul li{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.burger-block img{
+    position: absolute;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.navigation button{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 18px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+
+.navigation button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.block{
+    text-align: center;
+    color: white;
+}
+
+.block .wrapper p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-bottom: 300px;
+}
+
+.block .wrapper .logo{
+    font-size: 48px;
+    margin: 40px 0;
+    padding: 0;
+}
+
+.block .wrapper{
+    padding: 0 7%;
+}
+
+@media (max-width: 1350px){
+    .block .wrapper .logo{
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .block .wrapper .logo{
+        font-size: 36px;
+    }
+
+    .navigation{
+        margin-bottom: 120px;
+    }
+
+    .block .wrapper p{
+        padding-bottom: 200px;
+    }
+}
+
+@media (max-width: 800px){
+    .navigation{
+        justify-content: space-between;
+        padding: 0 35px;
+    }
+
+    .navigation ul{
+        justify-content: space-between;
+        width: 40%;
+    }
+
+    .block .wrapper .logo{
+        font-size: 26px;
+    }
+
+    .wrapper img{
+        width: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigation .burger-bar {
+        display: block;
+    }
+
+    header ul{
+        display: none;
+    }
+
+    .navigation{
+        justify-content: space-between;
+    }
+
+    .navigation .nav-img{
+        display: none;
+    }
+}

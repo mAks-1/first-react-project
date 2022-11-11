@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.come-together-section .image{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.come-together-section .come-together{
+    padding: 140px 10% 70px 10%;
+    color: #52503B;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.come-together-section .come-together .wrapper{
+    width: 42%;
+}
+
+.come-together-section .come-together .wrapper h2{
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.come-together-section .come-together .wrapper p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.come-together-section .come-together .wrapper2{
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.come-together-section .come-together .wrapper .orange-line{
+    margin: 0 0 30px 0;
+}
+
+.come-together-section .come-together .wrapper2 div{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin-bottom: 60px;
+}
+
+.come-together-section .come-together .wrapper2 div img{
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 1000px) {
+    .come-together-section .come-together .wrapper{
+        width: 36%;
+    }
+
+    .come-together-section .come-together .wrapper2{
+        width: 58%;
+    }
+}
+
+@media (max-width: 900px) {
+    .come-together-section .come-together .wrapper .orange-line{
+        margin: 0 auto 30px auto;
+    }
+
+    .come-together-section .come-together .wrapper{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .come-together-section .come-together{
+        padding: 90px 10% 70px 10%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .come-together-section .come-together .wrapper2{
+        width: 100%;
+        margin: 70px auto 0 auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 500px){
+    .come-together-section .come-together .wrapper{
+        width: 90%;
+    }
+
+    .come-together-section .come-together .wrapper2{
+        margin: 70px auto 0 auto;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .come-together-section .come-together .wrapper2 div{
+        width: 90%;
+        margin: 0 auto 60px auto;
+    }
+}

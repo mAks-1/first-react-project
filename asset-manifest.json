@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/first-react-project/static/css/main.e841ead7.css",
+    "main.js": "/first-react-project/static/js/main.43c439a6.js",
+    "static/media/header-bg-image.png": "/first-react-project/static/media/header-bg-image.342630d1c808b06473f7.png",
+    "static/media/IMAGE.png": "/first-react-project/static/media/IMAGE.6d7e67feefcefd87df55.png",
+    "static/media/about-house-bg.png": "/first-react-project/static/media/about-house-bg.9b8c971c23de64064803.png",
+    "static/media/adv1.svg": "/first-react-project/static/media/adv1.dc0faef8ddd9f9d45ff3584d41c0021f.svg",
+    "static/media/adv8.svg": "/first-react-project/static/media/adv8.8d5e0aeb7d872c8929c9fccbb298cd9d.svg",
+    "static/media/adv2.svg": "/first-react-project/static/media/adv2.42efe96e7759c4618cc807ee8bb06bac.svg",
+    "static/media/adv4.svg": "/first-react-project/static/media/adv4.360192b96112c1a76717f9d5713bfc80.svg",
+    "static/media/facebook.svg": "/first-react-project/static/media/facebook.55252f84808c9943501bc8e38315aba7.svg",
+    "static/media/svg2.svg": "/first-react-project/static/media/svg2.729d2799d3f2a39d140ef8e9168b9880.svg",
+    "static/media/bath.svg": "/first-react-project/static/media/bath.c85ac385fbd1904caf862e9d3ef7205e.svg",
+    "static/media/svg3.svg": "/first-react-project/static/media/svg3.5718c5b92ec9e61b46caf112cbd69516.svg",
+    "static/media/bad-star.svg": "/first-react-project/static/media/bad-star.ebe7e2cada9a3a2299f811b2fd882b65.svg",
+    "static/media/adv3.svg": "/first-react-project/static/media/adv3.c45899b6bb20fd2236976a1e063c02ee.svg",
+    "static/media/svg4.svg": "/first-react-project/static/media/svg4.7b48028c16f19be71786ee5eca84cd0e.svg",
+    "static/media/svg1.svg": "/first-react-project/static/media/svg1.a3071b597f101662b7bc3cd9b5f1eaa7.svg",
+    "static/media/adv6.svg": "/first-react-project/static/media/adv6.2fbbfd15a3346137317b98a179e0d401.svg",
+    "static/media/instagram.svg": "/first-react-project/static/media/instagram.3348fbbc7ce59bd07bb56fef827415be.svg",
+    "static/media/adv7.svg": "/first-react-project/static/media/adv7.d32141fbb95040a16e0fa9bd0af621ef.svg",
+    "static/media/bed.svg": "/first-react-project/static/media/bed.0486fd8723227a263fe00b3b261e5003.svg",
+    "static/media/adv5.svg": "/first-react-project/static/media/adv5.e60aa6cdcce182415126b90fc4117bfb.svg",
+    "static/media/door.svg": "/first-react-project/static/media/door.45c5194d463f7bb7429895394128509c.svg",
+    "index.html": "/first-react-project/index.html",
+    "static/media/good-star.svg": "/first-react-project/static/media/good-star.3e6ddc6e0af7abda5c56e87984557961.svg",
+    "main.e841ead7.css.map": "/first-react-project/static/css/main.e841ead7.css.map",
+    "main.43c439a6.js.map": "/first-react-project/static/js/main.43c439a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e841ead7.css",
+    "static/js/main.43c439a6.js"
+  ]
+}
